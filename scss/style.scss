@@ -1,0 +1,47 @@
+body {
+	background-image: url(/imagenes/descarga.jpg);
+}
+nav {
+	img {
+		width: 20%;
+		height: 20%;
+	}
+}
+.container-fluid {
+	background-color: blueviolet;
+}
+header {
+	width: 100%;
+	height: 30%;
+	background-image: url(/imagenes/template.webp);
+	img {
+		width: 100%;
+		height: 200px;
+	}
+}
+.sobremi {
+	width: 50%;
+	height: 30%;
+	background-color: palevioletred;
+	align-items: center;
+	position: relative;
+	right: -200px;
+	bottom: -40px;
+	border: 2px dashed violet;
+	h4 {
+		text-align: center;
+		font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	}
+	&:hover {
+		background-image: url(/imagenes/fondito.jpg);
+	}
+}
+p {
+	text-align: center;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+button {
+	background-color: blueviolet;
+	position: relative;
+	left: 200px;
+}
